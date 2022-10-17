@@ -131,8 +131,21 @@ img {
 
  /* TABLET VERSION */
 
- @media screen and (max-width:1140px) {
+ @media screen and (max-width:768px) {
     .container {
-        width:768px;
+        width:100%;
     }
+ 
+ }
+ 
+ /* SMARTPHONE VERSION */
+
+ @media screen and (max-width:480px) {
+    /* .container {
+        width:100%;
+    } */
+    .lessons .col {
+        width: 100%;
+    }
+    
  }
